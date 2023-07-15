@@ -1,5 +1,9 @@
 require("dotenv").config();
 
+console.log(process.env.DB_NAME);
+console.log(process.env.DB_USER);
+console.log(process.env.DB_PW);
+
 const Sequelize = require("sequelize");
 
 const sequelize = process.env.JAWSDB_URL
@@ -11,8 +15,5 @@ const sequelize = process.env.JAWSDB_URL
             decimalNumbers: true,
         },
     });
-
-
-// console.log(DB_NAME, DB_USER, DB_PW);
 
 module.exports = sequelize;
