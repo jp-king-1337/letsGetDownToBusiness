@@ -30,13 +30,6 @@ const productData = [
         price: 29.99,
         stock: 22,
         category_id: 2,
-    },
-    //   Copied the one below from product-routes lines 41-46. I think that's what we're meant to do? Will fix later if I think this is wrong.
-    {
-        product_name: "Basketball",
-        price: 200.00,
-        stock: 3,
-        tagIds: [1, 2, 3, 4]
     }
 ];
 
